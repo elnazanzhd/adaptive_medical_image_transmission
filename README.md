@@ -65,10 +65,10 @@ indicating stable optimization and no significant overfitting.
 ## Rate–Distortion Results (Clean Channel)
 
 ### PSNR vs Bitrate
-![PSNR vs bpp](figures/rd_psnr.png)
+![PSNR vs bpp](figures/learned-compression.png)
 
 ### SSIM vs Bitrate
-![SSIM vs bpp](figures/rd_ssim.png)
+![SSIM vs bpp](figures/learned-compression2.png)
 
 **Findings:**
 - Increasing bitrate from **2 → 3 bpp** yields a significant improvement.
@@ -80,7 +80,7 @@ indicating stable optimization and no significant overfitting.
 ---
 
 ## Qualitative Reconstruction
-![Original vs Reconstruction](figures/original_vs_reconstruction.png)
+![Original vs Reconstruction](figures/original-vs-autoencoder.png)
 
 Visual inspection confirms that anatomical structures are preserved at moderate bitrates, and higher bitrates do not
 produce meaningful visual improvements.
@@ -88,7 +88,7 @@ produce meaningful visual improvements.
 ---
 
 ## Robustness to Packet Loss
-![Robustness to Packet Loss](figures/robustness_packet_loss.png)
+![Robustness to Packet Loss](figures/Learned%20Compression%20Robustness%20to%20Packet%20Loss.png)
 
 **Observations:**
 - Packet loss causes a consistent PSNR degradation across all bitrates.
@@ -98,7 +98,7 @@ produce meaningful visual improvements.
 ---
 
 ## Robustness to Latent Noise
-![Robustness to Latent Noise](figures/robustness_latent_noise.png)
+![Robustness to Latent Noise](figures/Learned%20Compression%20Robustness%20to%20Latent%20Noise.png)
 
 **Observations:**
 - Latent noise causes graceful degradation.
@@ -114,5 +114,3 @@ produce meaningful visual improvements.
 4. Communication-aware ML design is critical for medical systems.
 
 ---
-
-
