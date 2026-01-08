@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+matplotlib
+scikit-image
+opencv-python
+pillow
+tqdm
+medmnist==2.2.2
